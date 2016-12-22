@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwitchButton">
+        <!-- 设置滑块的图形，这里也可以使用选择来动态改变 -->
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <!--  -->
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <!-- 设置正方形四角的弧的半径 -->
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <!-- 设置背景图形的四角弧的半径 -->
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <!-- 设置背景的图形，这里也可以使用选择器来动态改变 -->
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <!-- 默认情况下是true，当设置为true是背景颜色会随着滑动逐渐变浅 -->
+        <attr name="kswFadeBack" format="boolean" />
+        <!-- 背景图形和滑块的比例 -->
+        <attr name="kswBackMeasureRatio" format="float" />
+        <!-- 设置滑动的时长 -->
+        <attr name="kswAnimationDuration" format="integer" />
+        <!-- 滑块的背景颜色 -->
+        <attr name="kswTintColor" format="color|reference" />
+        <!-- 设置打开状态文字 -->
+        <attr name="kswTextOn" format="string" />
+        <!-- 设置关闭状态文字 -->
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextMarginH" format="dimension" />
+        <attr name="kswAutoAdjustTextPosition" format="boolean" />
+    </declare-styleable>
+
+</resources>
